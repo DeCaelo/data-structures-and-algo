@@ -10,7 +10,7 @@ class Node {
 }
 
 // ITER
-// T: O(n) S: O(n)
+// T: O(n) S: O(1)
 const sumList = (head) => {
   let sum = 0;
   let current = head;
